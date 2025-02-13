@@ -37,7 +37,7 @@ T--;
 document.write(T + "<br>");
 
 //Displaying random numbers
-window.alert(Math.random() * 50)
+//window.alert(Math.random() * 50)
 
 /* What is Math Object Methods?
 The Math object in JavaScript provides built-in methods for mathematical calculations.
@@ -49,3 +49,14 @@ document.write(Math.abs(-10) + "<br>")
 document.write(Math.ceil(23.434) + "<br>")
 
 //Math.floor()  Round Down
+
+//Dictionaries
+function my_Dict(){
+    var Student = {
+        name:"Asong",
+        age:"Fat years",
+        gender:"male",
+        number:7,
+    };
+    document.getElementById("Dictionary").innerHTML = Student.name;
+}
